@@ -8,8 +8,8 @@ pushd `pwd` > /dev/null
 cd `dirname $0`
 echo "Working Path: "`pwd`
 
-ROS_VERSION=""
-ROS_HUMBLE=""
+ROS_VERSION="ROS2"
+ROS_HUMBLE="humble"
 
 # Set working ROS version
 if [ "$1" = "ROS2" ]; then
